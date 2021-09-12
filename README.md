@@ -77,21 +77,21 @@ Possibly the generated mkdocs.yml file has to be opened and saved again if follo
 
 In the following example the mkdocs documentation illustrates the generated HTML output for the SAS routine **export_to_xlsx_csv**. A description as well as some details are shown. Next, the usage and the parameters of the routine are described. The return value is listed and a warning is displayed if needed. Finally, the version and author along with the SAS code are listed.
 
-![example1](img/p1.png)
-![example2](img/p2.png)
-![example3](img/p3.png)
+![example1](https://github.com/pseboek/SAS_to_MkDocs/blob/master/img/p1.PNG)
+![example2](https://github.com/pseboek/SAS_to_MkDocs/blob/master/img/p2.PNG)
+![example3](https://github.com/pseboek/SAS_to_MkDocs/blob/master/img/p3.PNG)
 
 ---
 
 One of the main benefits of the generated html documentation is that a **search** can be performed across all documents.
 
-![search](img/p4.png)
+![search](https://github.com/pseboek/SAS_to_MkDocs/blob/master/img/p4.PNG)
 
 ---
 
 Additionally, a syntax highlighting is included for all SAS routines.
 
-![syntaxhighlighting](img/p5.png)
+![syntaxhighlighting](https://github.com/pseboek/SAS_to_MkDocs/blob/master/img/p5.PNG)
 
 ---
 
