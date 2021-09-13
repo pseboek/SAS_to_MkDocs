@@ -102,7 +102,7 @@ Code abbreviations (snippets) in SAS can be used in all 3 environments: SAS Stud
 
 In order to track every change in the underlying SAS syntax files and to generate up-to-date kmf files, a **post-commit hook** is added to the project.
 
-![PhUSE 2012](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjInoWPkPvyAhXVRfEDHXfTC28QFnoECAIQAQ&url=https%3A%2F%2Fwww.lexjansen.com%2Fphuse%2F2012%2Fcc%2FCC03.pdf&usg=AOvVaw3tv8XUPG8rdPJQOAP_nqHB)
+[PhUSE 2012](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjInoWPkPvyAhXVRfEDHXfTC28QFnoECAIQAQ&url=https%3A%2F%2Fwww.lexjansen.com%2Fphuse%2F2012%2Fcc%2FCC03.pdf&usg=AOvVaw3tv8XUPG8rdPJQOAP_nqHB)
 
 ---
 
