@@ -1,0 +1,57 @@
+site_name: Documentation
+nav:
+   - Home: 'index.md'
+   - SASFiles:
+     - Analysis: 'Analysis.md'
+     - Datamanagement: 'Datamanagement.md'
+     - Filemanagement: 'Filemanagement.md'
+     - Utilities: 'Utilities.md'
+   - Environment:
+     - Autoexec: 'Autoexec.md'
+     - Environment: 'Environment.md'
+theme:
+  name: 'material'
+  favicon: 'pics/favicon.ico'
+  palette:
+    primary: 'grey'
+    accent: 'orange'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  icon:
+    logo: 'material/apps'
+  theme:
+    direction: 'ltr'
+  feature:
+    tabs: false
+    
+extra_css: 
+  - extra.css
+
+extra_javascript:
+  - extra.js
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+      toc_depth: 2
+  - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
