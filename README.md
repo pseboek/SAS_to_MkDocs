@@ -6,6 +6,15 @@ There is hardly any modern documentation for a SAS project. It is possible to us
 
 ---
 
+## Requirements
+
+- [SAS Base](https://www.sas.com/en_us/software/base-sas.html)
+- [MkDocs](https://www.mkdocs.org/)
+- [MkDocs-material](https://squidfunk.github.io/mkdocs-material/) 
+- [Python](https://www.python.org/)
+
+---
+
 ## Directory structure
 
 ### Main folder
