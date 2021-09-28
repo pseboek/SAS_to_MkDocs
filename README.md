@@ -109,9 +109,20 @@ Additionally, a syntax highlighting is included for all SAS routines.
 
 Code abbreviations (snippets) in SAS can be used in all 3 environments: SAS Studio, SAS Display Manager, and SAS EG. To use snippets in SAS DM or SAS EG, kmf files are needed. A PhUSE paper from 2012 was modified to automatically generate the snippets for all SAS syntax files in the project. This is achieved by exctracting all necessary information like the MACRO name and the signature. 
 
+[PhUSE 2012](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjInoWPkPvyAhXVRfEDHXfTC28QFnoECAIQAQ&url=https%3A%2F%2Fwww.lexjansen.com%2Fphuse%2F2012%2Fcc%2FCC03.pdf&usg=AOvVaw3tv8XUPG8rdPJQOAP_nqHB)
+
 In order to track every change in the underlying SAS syntax files and to generate up-to-date kmf files, a **post-commit hook** is added to the project.
 
-[PhUSE 2012](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjInoWPkPvyAhXVRfEDHXfTC28QFnoECAIQAQ&url=https%3A%2F%2Fwww.lexjansen.com%2Fphuse%2F2012%2Fcc%2FCC03.pdf&usg=AOvVaw3tv8XUPG8rdPJQOAP_nqHB)
+**Post-commit GitHook:**
+
+```bash
+#!/bin/sh
+
+"C:\Program Files\SASHome\SASFoundation\9.4\Sas.exe" -SYSIN "C:\SAS_to_MkDocs\kmf\generate_kmf.sas" -NOSPLASH -ICON
+python -u "C:\SAS_to_MkDocs\generate_documentation.py"
+pushd "C:\SAS_to_MkDocs\DOKU"
+mkdocs build
+```
 
 ---
 
